@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+gui/venv/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+
+# Python caches
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# Logs
+*.log
+
+# Environment / secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Generated exports
+*.csv
+
+# Development backup versions
+gui/crypto_gui_phase*.py
+
+# Docker local data
+Docker.raw
+docker-data/
+
+# Development snapshots - do not publish
+backend/*_phase*.py
+backend/*_FINAL.py
+
+gui/*_phase*.py
+gui/*_FINAL.py
+gui/*_before_*.py
+gui/trackpad_test.py
+
+docs/screenshots/Screenshot*.png
